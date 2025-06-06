@@ -1,0 +1,12 @@
+[
+  {
+    "slug": "susi-sonnenschein",
+    "name": "Susi Sonnenschein",
+    "bio": "Hier steht die Biografie im Fließtext."
+  },
+  {
+    "slug": "max-mustermann",
+    "name": "Max Mustermann",
+    "bio": "Biografie von Max Mustermann..."
+  }
+]

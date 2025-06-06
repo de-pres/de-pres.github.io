@@ -1,0 +1,14 @@
+[
+  {
+    "slug": "test-blatt",
+    "title": "Test-Blatt",
+    "description": "Beschreibung des Materials",
+    "file": "test-blatt.pdf"
+  },
+  {
+    "slug": "zweites-blatt",
+    "title": "Zweites Arbeitsblatt",
+    "description": "Beschreibung des zweiten Arbeitsblatts",
+    "file": "zweites-blatt.pdf"
+  }
+]

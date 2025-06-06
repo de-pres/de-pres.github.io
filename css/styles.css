@@ -1,0 +1,59 @@
+/* Farbthema: Dunkles Petrol und Koralle */
+:root {
+  --primary: #264653;
+  --accent: #e76f51;
+  --bg: #f4f4f4;
+  --text: #2a2a2a;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { background: var(--bg); color: var(--text); font-family: 'Arial', sans-serif; }
+header { background: var(--primary); padding: 1rem 2rem; display: flex; align-items: center; justify-content: space-between; }
+.logo { font-size: 1.8rem; color: #fff; }
+.nav a { margin-right: 1.5rem; color: #fff; text-decoration: none; font-weight: bold; transition: color .3s; }
+.nav a:hover { color: var(--accent); }
+.cards-container { display: grid; grid-template-columns: repeat(auto-fit,minmax(300px,1fr)); gap: 1.5rem; padding: 2rem; }
+.card { background: #fff; border-radius: 1.5rem; overflow: hidden; box-shadow: 0 4px 12px rgba(0,0,0,0.1); transition: transform .3s, box-shadow .3s; display: flex; flex-direction: column; }
+.card:hover { transform: translateY(-5px); box-shadow: 0 8px 20px rgba(0,0,0,0.15); }
+.card img { width: 100%; height: 180px; object-fit: cover; border-bottom: 4px solid var(--accent); }
+.card-content { padding: 1rem; flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between; }
+.card-title { font-size: 1.2rem; margin-bottom: .5rem; color: var(--primary); }
+.card-author { font-size: .95rem; color: #555; margin-bottom: 1rem; }
+.btn, .dropbtn { background: var(--accent); color: #fff; border: none; padding: .7rem 1.4rem; border-radius: .8rem; cursor: pointer; font-size: 1rem; transition: transform .2s, background .3s; }
+.btn:hover, .dropbtn:hover { transform: scale(1.05); background: #f4a261; }
+.btn:active, .dropbtn:active { transform: scale(0.95); }
+.dropdown { position: relative; display: inline-block; }
+.dropdown-content { display: none; position: absolute; background: #fff; min-width: 160px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); border-radius: .8rem; overflow: hidden; z-index: 10; }
+.dropdown-content a { display: block; padding: .8rem 1.2rem; color: var(--text); text-decoration: none; transition: background .3s; }
+.dropdown-content a:hover { background: var(--bg); }
+.dropdown:hover .dropdown-content { display: block; }
+.detail-container { padding: 2rem; max-width: 700px; margin: 2rem auto; background: #fff; border-radius: 1rem; box-shadow: 0 4px 12px rgba(0,0,0,0.1); }
+.detail-container h1 { margin-bottom: 1rem; color: var(--primary); }
+.detail-container .text-content { line-height: 1.6; margin-bottom: 1.5rem; }
+/* längliche Karten */
+.card.long {
+  display: flex;
+  max-height: 200px;
+}
+.card.long img {
+  width: 40%;
+  object-fit: cover;
+  border-bottom: none;
+  border-top-left-radius: 1.5rem;
+  border-bottom-left-radius: 1.5rem;
+}
+.card.long .card-content {
+  padding: 1rem;
+  flex: 1;
+}
+
+.detail-thumb {
+  width: 120px;
+  float: right;
+  margin: 0 0 1rem 1rem;
+  border-radius: .5rem;
+}
+.detail-author {
+  font-style: italic;
+  margin-bottom: 1rem;
+}
+

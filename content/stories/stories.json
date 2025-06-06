@@ -1,0 +1,18 @@
+[
+  {
+    "slug": "test",
+    "title": "Eine äußerst berührende story",
+    "author": "Susi Sonnenschein",
+    "image": "test.jpg",
+    "audio": "test.mp3",
+    "text": "Lorem ipsum dolor sit amet..."
+  },
+  {
+    "slug": "zweite-geschichte",
+    "title": "Zweite beeindruckende Geschichte",
+    "author": "Max Mustermann",
+    "image": "test2.jpg",
+    "audio": "test2.mp3",
+    "text": "Zweiter Text für die Geschichte..."
+  }
+]
